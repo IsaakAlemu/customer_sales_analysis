@@ -45,19 +45,28 @@ The goal is to transform raw data into actionable insights that support business
 
 ### 1. Sales Trend
 - Sales show seasonal patterns with peaks in November  
-- Indicates strong holiday demand  
+- Indicates strong holiday demand
+
+![Monthly Sales Trend](visuals/monthly_sale_trend.png)
+![Month-over-Month Sales Growth](visuals/month_over_month_trend.png)
 
 ### 2. Top Products
 - A small number of products dominate sales  
 - High demand for decorative and gift-related items  
 
+![Top Selling Products](visuals/top_selling_products.png)
+
 ### 3. Top Customers
 - Revenue is concentrated among a few high-value customers  
+
+![Top Customers by Revenue](visuals/top_customers_by_revenue.png)
 
 ### 4. Sales by Country
 - The United Kingdom generates the majority of revenue  
 - Other countries contribute significantly less  
 
+![Sales by Country](visuals/sales_by_country.png)
+![Sales by Country Excluding UK](visuals/sales_by_country_excluding_UK.png)
 ---
 
 ## Visualizations
@@ -66,32 +75,16 @@ The project includes:
 - Top products (bar chart)  
 - Top customers (bar chart)  
 - Sales by country (bar chart)  
-
----
-
-## Final Insights
-- The business shows strong seasonal sales patterns  
-- Sales are concentrated in a few products and customers  
-- Heavy reliance on the UK market  
-
----
-
-## Recommendations
-- Increase inventory before peak months  
-- Focus on high-demand products  
-- Retain high-value customers  
-- Expand into new markets  
-
 ---
 
 ## Project Structure
 Customer-sales-analysis/
 │
-├── data/
-│ └── online_retail_II.csv
-│
 ├── notebook/
 │ └── analysis.ipynb
+│
+├── visuals/
+│ └── (chart images)
 │
 ├── README.md
 
